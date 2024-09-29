@@ -16,5 +16,5 @@ echo "<br>";
 var_dump($a xor $b);
 echo "<br>";
 
-var_dump(!$a);
-var_dump(!$b);
+var_dump(value: !$a);
+var_dump(value: !$b);
