@@ -1,6 +1,10 @@
 <?php
 
 $linguagens = ["PHP", "C#", "Java"]; //array, PHP está na posição 0, o C# na 1 e Java na 2.
+$linguagens[3] = "Python"; //colocando no array de linguagens o valor Python na posição 3.
+$linguagens[] = "JS"; //se não colocar a posição ele vai assumir a próxima.
+
+// var_dump($linguagens);
 
 $linguagens2 = array("PHP", "C#", "Java"); //modo declara arrays antigos.
 
@@ -12,6 +16,10 @@ $curso2 = [
    "carga_horaria" => 40,
    "status" => true
 ]; //definindo chaves para acessar as posições do array.
+
+$curso2["pre_requisito"] = "Logica de programacao"; //colocando mais um item no array associativo
+
+// var_dump($curso2);
 
 // echo $curso2["nome_curso"];
 // echo "<br>";
@@ -47,6 +55,10 @@ $cursos = [
      ],    
     ];
 
-    echo $cursos["php"]["nome_curso"];
-    echo "<br>";
-    echo $cursos["java"]["nome_curso"];
+$cursos["php"]["pre_requisito"] = "Logica de programação";
+
+// var_dump($cursos);
+
+    // echo $cursos["php"]["nome_curso"];
+    // echo "<br>";
+    // echo $cursos["java"]["nome_curso"];
