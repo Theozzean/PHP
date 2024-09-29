@@ -7,5 +7,5 @@ $casada = true;
 
 echo gettype($nome); //retorna o tipo de variável
 
-var_dump($nome); //retorna o tipo o tamanho e valor
+var_dump($nome, $idade); //retorna o tipo o tamanho e valor
 
