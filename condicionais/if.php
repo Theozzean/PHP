@@ -10,5 +10,3 @@ if ($a > $b) {
 } else {
     echo "Nenhuma condicao é verdadeira";
 }
-
-
