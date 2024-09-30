@@ -22,6 +22,11 @@ $cursos = [
     ];
 
     foreach ($cursos as $curso) {
+
+        if($curso['status'] == false) {
+            break;
+        }
+
         echo $curso['nome_curso'] . '<br>';
         echo 'Versao da ferramenta:' . $curso['versao_ferramenta'] . '<br>';
         echo 'Carga horaria:' . $curso['carga_horaria'] . '<br>';
