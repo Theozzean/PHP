@@ -20,3 +20,5 @@ error_reporting(E_ALL);
 //     return $valor1 + $valor2;
 // }
 
+// //Erro de sintaxe
+// echo "Erro de sintaxe" precisava ter o ; no final do comando
