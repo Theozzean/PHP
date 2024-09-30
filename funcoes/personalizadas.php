@@ -2,7 +2,7 @@
 
 function somar($valor1, $valor2)
 {
-      echo "Antes do return";         
+      echo "<br>";         
       return $valor1 + $valor2;
       //echo "Depois do return"; depois do return não é chamado.
 }
