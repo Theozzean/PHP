@@ -4,7 +4,7 @@ function somar($valor1, $valor2)
 {
       echo "Antes do return";         
       return $valor1 + $valor2;
-      echo "Depois do return"; //depois do return não é chamado.
+      //echo "Depois do return"; depois do return não é chamado.
 }
 
 $soma = somar(12, 10);
