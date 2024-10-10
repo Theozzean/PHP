@@ -1,0 +1,16 @@
+{
+    "name": "root/php-oo",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Theozzean",
+            "email": "marcelotheodoro@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
